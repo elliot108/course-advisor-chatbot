@@ -20,7 +20,6 @@ function App() {
 
   return (
     <div className="chat-container">
-      <p>can you see me?</p>
       <h1>Course Advisor Chatbot</h1>
       <div className="chat-box">
         {messages.map((message, index) => (
