@@ -2,12 +2,15 @@
   "name": "course-advisor-chatbot",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://elliot108.github.io/course-advisor-chatbot/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
